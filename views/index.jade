@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  a(href='/calculator?method=add&x=15&y=3', title='Use Calculator') Use Calculator
+  p 
+    img(src=image)
